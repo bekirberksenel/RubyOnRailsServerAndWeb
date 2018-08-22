@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body style = "background-color: #FAF0E6">
+<div style = "background-color: #90EE90">
+<h1><%= @appointment.title %></h1>
+<p >
+   <strong>Title: </strong> <%= @appointment.title %><br />
+   <strong>Description :</strong> <%= @appointment.description %><br />
+   <strong>Date:</strong> <%= @appointment.date %><br />
+</p>
+
+<hr />
+
+<%= link_to 'Back', {:action => 'list'} %>
+</div>
+</body>
+</html>
